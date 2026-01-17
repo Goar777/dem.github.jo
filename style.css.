@@ -1,0 +1,35 @@
+/* Нежно-розовый стиль для всего сайта */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6f2; /* Очень нежный розовый (как лепесток) */
+  color: #5a3e4a;            /* Мягкий тёмно-розовый/серо-фиолетовый текст */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin: 0 0 1rem 0;
+  color: #d94fa1; /* Насыщенный, но не кричащий розовый */
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: #c2185b; /* Розово-красный для ссылок */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
